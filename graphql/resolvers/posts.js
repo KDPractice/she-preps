@@ -33,7 +33,7 @@ module.exports = {
             console.log(user);
 
             if(args.body.trim() === '') {
-                throw new Error ('Post body must not be empty');
+                throw new Error ('Post body must not be empty')
             }
 
             const newPost = new Post({
